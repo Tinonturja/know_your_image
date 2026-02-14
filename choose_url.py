@@ -10,5 +10,4 @@ def get_the_page(url:str):
     # get the page
     responses = requests.get(url, headers=headers)
     return BeautifulSoup(responses.text, "html.parser")
-content = get_the_page("https://en.wikipedia.org/wiki/Dassault_Rafale")
-print(content)
+
