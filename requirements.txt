@@ -1,0 +1,8 @@
+transformers
+Pillow
+torchvision
+torchaudio
+torch
+requests
+gradio
+bs4
